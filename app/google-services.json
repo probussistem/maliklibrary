@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "87547107246",
+    "firebase_url": "https://v3gokorea.firebaseio.com",
+    "project_id": "v3gokorea",
+    "storage_bucket": "v3gokorea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:87547107246:android:248ea363c47b66d6",
+        "android_client_info": {
+          "package_name": "dev.malikkurosaki.v3gokorea"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "87547107246-1u43vc46l4f8pc1aevi1vp6v42u0l7ok.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dev.malikkurosaki.v3gokorea",
+            "certificate_hash": "b99cd82aaf50aed8562ae3d0554b81908e78876f"
+          }
+        },
+        {
+          "client_id": "87547107246-koci9taskacv4bh9h9mklcvcm5r3n2ge.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGm2kc1ExColtnql9UVEX9J4bnhIbHIIY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "87547107246-koci9taskacv4bh9h9mklcvcm5r3n2ge.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

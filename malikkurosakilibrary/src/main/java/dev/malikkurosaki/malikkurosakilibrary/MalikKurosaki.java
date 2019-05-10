@@ -85,6 +85,7 @@ public class MalikKurosaki {
                    for (Map.Entry<String,Object> ent : ambil.entrySet()){
                         terima.add(ent.getValue().toString());
                    }
+
                    String[] nn = terima.toArray(new String[0]);
                    bungkus.add(nn);
                }

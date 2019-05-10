@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorPutih">#FFFFFF</color>
+    <color name="colorOrange1">#FF8F00</color>
+    <color name="colorOrange2">#EF6C00</color>
+    <color name="colorTm1">#00838F</color>
+    <color name="colorTm2">#00695C</color>
+    <color name="colorTm3">#4527A0</color>
+    <color name="colorTm4">#283593</color>
+    <color name="colorHitam">#000</color>
+</resources>
