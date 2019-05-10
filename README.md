@@ -42,6 +42,19 @@ dependencies {
 	}
 ```
 
+__dependency__
+
+```java
+
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+
+
 __firebase__
 
 ```java
