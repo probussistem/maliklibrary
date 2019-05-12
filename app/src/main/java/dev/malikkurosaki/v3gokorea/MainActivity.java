@@ -7,6 +7,7 @@ import android.content.pm.PackageManager;
 import android.content.res.Configuration;
 import android.content.res.Resources;
 import android.media.Image;
+import android.media.MediaPlayer;
 import android.os.Handler;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomSheetDialog;
@@ -41,7 +42,6 @@ import java.util.Locale;
 import java.util.Map;
 import java.util.Random;
 
-import dev.malikkurosaki.malikkurosakilibrary.MalikKurosaki;
 import io.paperdb.Paper;
 
 public class MainActivity extends AppCompatActivity {
@@ -74,12 +74,6 @@ public class MainActivity extends AppCompatActivity {
         papanScr1 = findViewById(R.id.papanScr1);
 
         dbf = FirebaseFirestore.getInstance();
-
-        new MalikKurosaki(this)
-                .mintaIjin(300)
-                .db(dbf,"data")
-                .namaFolderBaru("malikoutput")
-                .build();
 
 
         Tooltip tooltip = new Tooltip.Builder(mulai)
@@ -169,6 +163,9 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+
+        MediaPlayer player = MediaPlayer.create(this,R.raw.oppajadi);
+        player.start();
     }
 
     @Override

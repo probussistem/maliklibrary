@@ -21,7 +21,6 @@ import com.google.firebase.database.ValueEventListener;
 import java.util.HashMap;
 import java.util.Map;
 
-import dev.malikkurosaki.malikkurosakilibrary.MalikKurosaki;
 
 public class LayoutActifitas2 extends Fragment {
 
